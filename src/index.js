@@ -8,7 +8,7 @@ import { createStore } from 'redux';
 
 import reducer from './reducer';
 
-import {addComment, thumbUpComment, thumbDownComment} from './actions';
+import {addComment} from './actions';
 
 
 const store = createStore(reducer);
